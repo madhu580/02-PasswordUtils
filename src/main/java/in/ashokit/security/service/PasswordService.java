@@ -19,8 +19,4 @@ public class PasswordService {
 		return new String(decode);
 	}
 
-	public String password(String str) {
-
-		return str;
-	}
 }
