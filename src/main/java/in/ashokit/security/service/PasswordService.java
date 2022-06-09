@@ -18,4 +18,9 @@ public class PasswordService {
 		byte[] decode = decoder.decode(encryptedText);
 		return new String(decode);
 	}
+
+	public String password(String str) {
+
+		return str;
+	}
 }
