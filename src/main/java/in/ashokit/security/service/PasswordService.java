@@ -15,7 +15,7 @@ public class PasswordService {
 	}
 
 	public String decrypt(String encodedText) {
-
+		System.out.println("HEllo");
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodedText);
 		return new String(decode);
