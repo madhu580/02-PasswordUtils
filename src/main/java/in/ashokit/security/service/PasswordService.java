@@ -7,6 +7,7 @@ import java.util.Base64.Encoder;
 public class PasswordService {
 
 	public String encrypt(String plainText) {
+		int x = 10;
 		Encoder encoder = Base64.getEncoder();
 		String encodedString = encoder.encodeToString(plainText.getBytes());
 		return encodedString;
