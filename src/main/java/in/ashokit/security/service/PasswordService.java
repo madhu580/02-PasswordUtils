@@ -8,6 +8,7 @@ public class PasswordService {
 
 	public String encrypt(String plainText) {
 		int x = 10;
+		System.out.println(x);
 		Encoder encoder = Base64.getEncoder();
 		String encodedString = encoder.encodeToString(plainText.getBytes());
 		return encodedString;
